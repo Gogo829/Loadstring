@@ -176,3 +176,15 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/513ccdb3ae8a61
 loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/FrostByte/Initiate.lua"))()
   end
   })
+ 
+ AddButton(Tab1o, {
+     Name = "scrpt hiru",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Dev-Hiru/refs/heads/main/HiruHub.lua"))()
+  end
+  })
